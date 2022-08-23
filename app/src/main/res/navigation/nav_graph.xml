@@ -24,5 +24,13 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_addVideoFulledFragment"
+            app:destination="@id/addVideoFulledFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/addVideoFulledFragment"
+        android:name="com.example.socialshoppingbeta.AddVideoFulledFragment"
+        android:label="fragment_add_video_fulled"
+        tools:layout="@layout/fragment_add_video_fulled" />
 </navigation>

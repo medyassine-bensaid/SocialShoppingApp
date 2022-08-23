@@ -2,31 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imgGallery"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/addvideo"
     tools:context=".SecondFragment">
 
-
-    <ImageView
-        android:id="@+id/imgGallery"
-        android:layout_width="324dp"
-        android:layout_height="296dp"
-        android:src="@drawable/ic_launcher_foreground"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/cameraButton"
-        android:layout_width="145dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="24dp"
-        android:alpha="0"
-        android:text="@string/previous"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.857"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/galerieButton"
@@ -38,6 +19,18 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cameraButton"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:alpha="0"
+        android:text="@string/previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35083017952",
+    "project_id": "socialshopping-9e2f7",
+    "storage_bucket": "socialshopping-9e2f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35083017952:android:077fc3404995a21d057a85",
+        "android_client_info": {
+          "package_name": "com.example.socialshoppingbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35083017952-c5ge5a12i0qnhmunshkuh6b8a7u8m7m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0NKmx06jObDlk53dMAU4J_dizYoUpVok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35083017952-c5ge5a12i0qnhmunshkuh6b8a7u8m7m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
